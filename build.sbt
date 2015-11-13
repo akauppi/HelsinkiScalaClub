@@ -17,5 +17,7 @@ scalacOptions ++= Seq(
     )
 
 libraryDependencies ++= Seq(
-    "org.scalatest" %% "scalatest" % "2.2.4" % "test"
+  "com.beachape" %% "enumeratum" % "1.3.2",
+  //
+  "org.scalatest" %% "scalatest" % "2.2.4" % "test"
 )

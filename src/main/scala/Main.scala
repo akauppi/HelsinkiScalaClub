@@ -1,16 +1,16 @@
 /*
-* TestRun
+* Main
 *
 * Usage:
 *   sbt run
 */
 
 object Main extends App {
+  import EnumeratumMeetup._
 
-  case class Point(x: Double, y: Double)
+  builtIn()
+  caseObjects()
+  withEnumeratum()
 
-  val p = new Point(10,30)
-
-  System.out.println( s"Your point is: $p" )
+  println( "That's it, folks!" )
 }
-
