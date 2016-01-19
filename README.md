@@ -8,15 +8,17 @@ We run the meetup off the GitHub, pretty literally.
 
 ## Profile
 
-- meetings Thu 6-7:30 pm (often first Thu of a month), in a restaurant/pub, in central Helsinki area
-  - the meeting will be strictly time boxed so be in time :)
-- open / approachable for both Scala beginners / advanced alike
-  - general programming knowledge is expected
-- a computer is always available for hands on coding (which is preferred over slides)
-  - with [IntelliJ IDEA CE](https://www.jetbrains.com/idea/download/) + git clone of this repo
-- each evening will have a specific, pre-selected theme
+Meetings are Thu 6-7:30 pm (often first Thursday of a month), in a restaurant or pub in central Helsinki area.
+The meeting will be strictly time boxed so show up in time. :)
 
-All the code samples end up in the repo, so cloning the repo gives you the history of the meetups.
+Meetings can be sponsored by like-minded companies. If they are not, everyone pays their own drinks & snacks.
+
+Open / approachable for both Scala beginners / advanced alike. General programming knowledge (of any language, not
+necessarily Scala) is expected.
+
+A computer is always available for hands-on coding, which is preferred over slides. [IntelliJ IDEA CE](https://www.jetbrains.com/idea/download/) + git clone of this repo.
+
+Each evening has a specific, pre-selected theme regarding Scala.
 
 ## Venues
 
