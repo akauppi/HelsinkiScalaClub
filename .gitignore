@@ -1,7 +1,11 @@
-project/
+# sbt
+#
 target/
 
 # IntelliJ IDEA
 #
-.idea
+/.idea/
 
+# OS X
+#
+.DS_Store
