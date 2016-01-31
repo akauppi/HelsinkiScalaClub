@@ -20,8 +20,8 @@ class Underscores {
   def offset = sum2(count) _
 
   def sizeOf(l:Traversable[_]) : Unit = l match {
-    case it: Iterable[Int] => count = (0/:it)(_ + _)
-    case s: Seq[_] => s.foreach( _ => count + count+1 )
+    case it: Seq[Int @unchecked] => count = (0/:it)(_ + _)
+    case s: Iterable[_] => s.foreach( _ => count + count+1 )
     case _ => println(offset(l.size))
   }
 }
