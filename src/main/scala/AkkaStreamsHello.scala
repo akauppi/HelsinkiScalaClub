@@ -1,10 +1,11 @@
 /*
 * From http://eng.localytics.com/akka-streams-akka-without-the-actors/
+*   and https://github.com/localytics/akka-streams-blogpost-code
+*
+*   Updated to Akka Streams 2.0.2: https://github.com/akauppi/akka-streams-blogpost-code/tree/akka-streams-2.0.2
 */
-package main
-
 import akka.actor.ActorSystem
-import akka.stream.ActorMaterializer
+import akka.stream.{FlowShape, ActorMaterializer}
 import akka.stream.scaladsl._
 import scala.concurrent.ExecutionContext.Implicits.global
 
@@ -35,17 +36,21 @@ object StreamProgram2 {
       s + "!!!!"
     }
 
+  // Note: This bit needs Akka Streams 1.0 (not 2.0.2). AKa310116
+  //
   val sayAndShoutFlow: Flow[String, String, Unit] =
-    Flow() { implicit b =>
-      import FlowGraph.Implicits._
+    Flow.fromGraph(
+      GraphDSL.create() { implicit b =>
+        import GraphDSL.Implicits._
 
-      val broadcast = b.add(Broadcast[String](2))
-      val merge = b.add(Merge[String](2))
+        val broadcast = b.add(Broadcast[String](2))
+        val merge = b.add(Merge[String](2))
 
-      broadcast ~> sayFlow ~> merge
-      broadcast ~> shoutFlow ~> merge
-      (broadcast.in, merge.out)
-    }
+        broadcast ~> sayFlow ~> merge
+        broadcast ~> shoutFlow ~> merge
+        FlowShape(broadcast.in, merge.out)
+      }
+    )
 
   def run(): Unit = {
     implicit lazy val system = ActorSystem("example")

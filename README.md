@@ -40,3 +40,17 @@ Venues used or suggested for Helsinki Scala Club meetups.
 | Nov 12th 2015 | [Do you know Enumeratum?](http://www.meetup.com/Scala-Helsinki/events/226315396/) | Cantina West (sponsored by Zalando) | 4/8/x |
 | Sep 10th 2015 | [Getting Things Started](http://www.meetup.com/Scala-Helsinki/events/224405915/) | William K, Annankatu | 8/17/x |
 
+## Meetup.com costs
+
+Unfortunately, meetup.com [only allows the organizer](http://help.meetup.com/customer/portal/articles/913844) to pay for their service. The cost is around USD 30 / 6 months. It's not exactly cheap, but... only 0,50 EUR per member per year.
+
+We cover it by "passing a hat" in the meetings, if the earlier sum is negative (i.e. paying extra will be used eventually). You can pay anonymously, or ask your name to be listed as a contributor.
+
+<!-- Editor's note: keep the latest topmost AKa310116
+-->
+
+| Date | Change | Sum | Comment |
+| ---- | ------ | --- | ------- |
+| Feb 4th 2016 | - 27,40 | | meetup.com Feb-Aug |
+| Feb 4th 2016 | + 0,00 | 0,00 | |
+
