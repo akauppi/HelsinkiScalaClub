@@ -5,12 +5,9 @@
 *   sbt run
 */
 
+import main.StreamProgram
+
 object Main extends App {
-  import EnumeratumMeetup._
 
-  builtIn()
-  caseObjects()
-  withEnumeratum()
-
-  println( "That's it, folks!" )
+  StreamProgram.run()
 }
