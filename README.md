@@ -47,7 +47,7 @@ We occasionally "pass the hat", to cover meetup.com membership costs. THANK YOU 
 
 | Date | Reason | Diff | Sum |
 | ---- | ----- | ----- | ------------- |
-| Feb 4th 2016 | meetup.com fee 6 months | -27,00 | +6,40 |
+| Feb 4th 2016 | meetup.com fee 6 months | -27,31 | +6,09 |
 | Feb 4th 2016 | passed the hat | +33,40 | |
 
 <!-- Editor notes: keep latest sums topmost. -->
