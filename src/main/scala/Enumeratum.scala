@@ -153,6 +153,7 @@ object EnumeratumMeetup {
    *   - Fully supported in match-case
    *   - No need to manually maintain values()
    *   - Supports "ordinal()", even though using that is generally discouraged
+   *   - Jackson can directly deserialize into Java enums using their .valueOf factory method
    *
    * Note:
    *   - Java enum is the best implementation of enumeration that I've encountered in any language (-HSa)
