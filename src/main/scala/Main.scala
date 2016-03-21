@@ -4,13 +4,17 @@
 * Usage:
 *   sbt run
 */
-
 object Main extends App {
   import EnumeratumMeetup._
 
-  builtIn()
-  caseObjects()
-  withEnumeratum()
+  val functions = Seq(
+    builtIn _,
+    caseObjects _,
+    withEnumeratum _,
+    withJavaEnums _
+  )
 
-  println( "That's it, folks!" )
+  functions.foreach { f => f(); println() }
+
+  println("That's it, folks!")
 }
