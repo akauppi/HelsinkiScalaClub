@@ -50,6 +50,7 @@ object EnumeratumMeetup {
     })
   }
 
+
   //---
   // Case objects:
   //
@@ -88,6 +89,7 @@ object EnumeratumMeetup {
   //  - there is something like:
   //      import EnumerationMacros._
   //      val cols: Set[Colour] = sealedInstancesOf[Colour]
+
 
   //---
   // Enumeratum:
@@ -132,4 +134,40 @@ object EnumeratumMeetup {
 
   // Blog used in preparing the meetup:
   //  http://underscore.io/blog/posts/2014/09/03/enumerations.html
+
+
+  /**
+   * Java Enums.
+   *
+   * There is a mere one-liner in `/src/main/java/Colour.java`:
+   * {{{
+   *   enum Colour { Red, Amber, Green }
+   * }}}
+   *
+   * Problems:
+   *   - Java code in a separate file
+   *
+   * Benefits:
+   *   - Fast, look-ups from string are O(m) where m in the length of the string
+   *   - Elegant
+   *   - Fully supported in match-case
+   *   - No need to manually maintain values()
+   *   - Supports "ordinal()", even though using that is generally discouraged
+   *
+   * Note:
+   *   - Java enum is the best implementation of enumeration that I've encountered in any language (-HSa)
+   */
+  def withJavaEnums(): Unit = {
+
+    println (Colour.Amber)         // Amber
+    println (Colour.values.toSeq)  // .values returns Array(Red, Amber, Green), using .toSeq for printing purposes
+
+    val col = Colour.values()(2)
+    println (col match {
+      case Colour.Red   => "hot"
+      case Colour.Amber => "hottish"
+      // Do we get a 'match may not be exhaustive' warning if the following line is removed?  Yes!
+      case Colour.Green => "??"
+    })
+  }
 }
