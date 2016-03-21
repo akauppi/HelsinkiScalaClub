@@ -8,10 +8,10 @@ object Main extends App {
   import EnumeratumMeetup._
 
   val functions = Seq(
-    () => builtIn(),
-    () => caseObjects(),
-    () => withEnumeratum(),
-    () => withJavaEnums()
+    builtIn _,
+    caseObjects _,
+    withEnumeratum _,
+    withJavaEnums _
   )
 
   functions.foreach { f => f(); println() }
