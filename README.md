@@ -32,16 +32,16 @@ Venues used or suggested for Helsinki Scala Club meetups.
 ## Sponsors
 
 - [Zalando Finland](https://tech.zalando.com/locations/) offered the snacks on 12-Nov-2015
-- [Kiosked ](https://kiosked.com) offered venue and snacks on 07-Apr-2016
+- [Kiosked](https://kiosked.com) offered venue and snacks on 07-Apr-2016
 
 ## Past meetups
 
-| Date | Title | Venue | Show up / RSVP yes / members |
-| ---- | ----- | ----- | ------------- |
-| Apr 7th 2016 | [Let's meet at Kiosked](http://www.meetup.com/Scala-Helsinki/events/229099739/) | Kiosked | 11/15/120 |
-| Feb 4th 2016 | [Akka Streams Walk-through](http://www.meetup.com/Scala-Helsinki/events/228184972/) | William K, Annankatu | 9/13/103 |
-| Nov 12th 2015 | [Do you know Enumeratum?](http://www.meetup.com/Scala-Helsinki/events/226315396/) | Cantina West (sponsored by Zalando) | 4/8/x |
-| Sep 10th 2015 | [Getting Things Started](http://www.meetup.com/Scala-Helsinki/events/224405915/) | William K, Annankatu | 8/17/x |
+| Date | Title | Venue | Show up / RSVP yes / members | Show-up ratio |
+| ---- | ----- | ----- | ------------- | --- |
+| Apr 7th 2016 | [Let's meet at Kiosked](http://www.meetup.com/Scala-Helsinki/events/229099739/) | Kiosked | 11/15/120 | 73% |
+| Feb 4th 2016 | [Akka Streams Walk-through](http://www.meetup.com/Scala-Helsinki/events/228184972/) | William K, Annankatu | 9/13/103 | 69% |
+| Nov 12th 2015 | [Do you know Enumeratum?](http://www.meetup.com/Scala-Helsinki/events/226315396/) | Cantina West (sponsored by Zalando) | 4/8/x | 50% |
+| Sep 10th 2015 | [Getting Things Started](http://www.meetup.com/Scala-Helsinki/events/224405915/) | William K, Annankatu | 8/17/x | 47% |
 
 ## Finances
 

@@ -5,7 +5,7 @@ target/
 # IntelliJ IDEA
 #
 /.idea/*
-!/.idea/runConfigurations/
+#!/.idea/runConfigurations/
 
 # OS X
 #
