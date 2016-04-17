@@ -43,6 +43,24 @@ Venues used or suggested for Helsinki Scala Club meetups.
 | Nov 12th 2015 | [Do you know Enumeratum?](http://www.meetup.com/Scala-Helsinki/events/226315396/) | Cantina West (sponsored by Zalando) | 4/8/x | 50% |
 | Sep 10th 2015 | [Getting Things Started](http://www.meetup.com/Scala-Helsinki/events/224405915/) | William K, Annankatu | 8/17/x | 47% |
 
+## After meetups
+
+It would be great if also the Meetup.com attendance information could be filled, after the events. This tells who was actually there and who were "no shows".
+
+The tool is a bit hard to find. Go to particular event page and look for this:
+
+![image](.images/edit-attendance.png)
+
+## Backlog
+
+Ideas for upcoming events:
+
+- scala.js
+  - coming to May or Jun 2016, by Dylan Drummond
+- using type system to your benefit
+- sbt basics / advanced
+  - Asko could show how general purpose tasks are done in `sbt` (creating a file based on dependencies and running command line commands) AKa170416
+
 ## Finances
 
 We occasionally "pass the hat", to cover meetup.com membership costs. THANK YOU for all contributors! :)
